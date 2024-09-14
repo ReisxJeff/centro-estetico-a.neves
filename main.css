@@ -1,0 +1,60 @@
+body{
+    font-family: Jost, sans-serif;
+}
+
+.navbar{
+    background-color: rgba(58, 123, 222, 0.809);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:  rgba(58, 123, 222, 0.809);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-manu .nav-link.active:hover{
+    color: #fff;
+}
+
+.text-title{
+    font-family: Marck Script, cursive;
+}
+
+.navbar-toggler{
+    background-color: rgba(238, 240, 246, 0.815);
+}
+
+.sub-text{
+    color:  rgba(58, 123, 222, 0.809);
+}
+
+.cor-de-fundo{
+    background-color:  rgba(238, 240, 246, 0.815);
+}
+
+.nav-manu .nav-link.active,
+#fale-conosco button{
+    background-color: rgba(58, 123, 222, 0.809);
+    color: #fff;
+}
+
+.nav-manu .nav-link:hover{
+    color:  rgba(58, 123, 222, 0.809);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-wisth: 767px) {
+    .carousel-item img{
+        height: 288px;
+    }
+}
